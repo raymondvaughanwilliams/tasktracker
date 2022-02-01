@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "text": "Learn React",
+      "completed": true,
+      "reminder": false,
+      "date": "2020-01-01"
+    },
+    {
+      "text": "Learn Redux",
+      "completed": false,
+      "reminder": false,
+      "date": "2020-01-01"
+    },
+    {
+      "text": "Learn React Native",
+      "completed": false,
+      "reminder": false,
+      "date": "2020-01-01"
+    }
+  ]
+}
