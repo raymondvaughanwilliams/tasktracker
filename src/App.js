@@ -23,7 +23,7 @@ useEffect(() => {
 
 // Fetch Tasks
 const fetchTasks = async () => {
-  const res = await fetch('http://localhost:3000/tasks')
+  const res = await fetch('http://localhost:3001/tasks')
   const data = await res.json()
 
   return data
@@ -39,7 +39,7 @@ const addTask = (task,text, date,completed,reminder) => {
 
 
 const deleteTask = async (id) => {
-  const res = await fetch(`http://localhost:3000/tasks/${id}`, {
+  const res = await fetch(`http://localhost:3001/tasks/${id}`, {
     method: 'DELETE',
 
   })
